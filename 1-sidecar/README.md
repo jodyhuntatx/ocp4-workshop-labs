@@ -16,7 +16,7 @@
    Run: ```cat app-sidecar-policy.yaml```
 5) Load the DAP policy:
 
-   Run: ```../load_policy.sh root app-sidecar-policy.yaml```
+   Run: ```../load_policy.sh <user#> app-sidecar-policy.yaml```
 6) Cat & study contents of app-sidecar-manifest.yaml:
 
    Run: ```cat app-sidecar-manifest.yaml```

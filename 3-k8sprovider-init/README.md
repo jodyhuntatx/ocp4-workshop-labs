@@ -10,7 +10,7 @@
    Run: ```cat app-k8ssecrets-policy.yaml```
 3) Load the DAP policy:
 
-   Run: ```../load_policy.sh root app-k8ssecrets-policy.yaml```
+   Run: ```../load_policy.sh <user#> app-k8ssecrets-policy.yaml```
 4) Cat & study contents of db-credentials.yaml:
 
    Run: ```cat db-credentials.yaml```

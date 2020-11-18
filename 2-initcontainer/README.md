@@ -12,7 +12,7 @@
    Run: ```sdiff -s ./app-init-policy.yaml ../1-sidecar/app-sidecar-policy.yaml```
 3) Load the DAP policy:
 
-   Run: ```../load_policy.sh root app-init-policy.yaml```
+   Run: ```../load_policy.sh <user#> app-init-policy.yaml```
 4) Cat & study contents of app-init-manifest.yaml - compare to the sidecar manifest:
 
    Run: ```cat ./app-init-manifest.yaml```

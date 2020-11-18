@@ -18,18 +18,12 @@
 
 5) Set env vars for your DAP admin creds:
 
-   Run: ```export AUTHN_USERNAME=<value-to-be-provided>```
+   Run: ```export AUTHN_USERNAME=<user#>```
 
-   Run: ```export AUTHN_PASSWORD=<value-to-be-provided>```
+   Run: ```export AUTHN_PASSWORD=<user#CYBR2@2@>```
 
 5) Login with your lab user id:
 
    Run: ```oc login -u <username> --server=$LAB_CLUSTER```
 
 6) Wait for further instructions.
-
-Some handy oc commands:
-
-- Get recent events:
-
-  ```oc get event | awk '$1 ~ /^*s/'```
